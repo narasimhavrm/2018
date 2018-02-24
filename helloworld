@@ -1,3 +1,15 @@
-def dummy:
-    print("Hello World")
+class MyFirstClass():
+
+    def hello(self):
+        print("Hello World")
+        return 'retstmnt'
+        
+
+def main():
+    myObject = MyFirstClass()
+    myObject.hello()
+    print(myObject.hello())
     
+    
+if __name__ == "__main__":
+    main()
